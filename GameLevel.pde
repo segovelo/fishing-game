@@ -1,0 +1,2 @@
+
+enum GameLevel {SPLASH, LEVEL1, LEVEL2, LEVEL3, GAMEOVER}
