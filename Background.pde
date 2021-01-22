@@ -23,6 +23,9 @@ class Background{
      sunY=height/15;
      waveUp = true;
      day=true;
+     for(int i=0;i<=40;i++){
+         seaX[i] = i*width/40; 
+     }
      timer = new Time();
      message = new Time();
    }
@@ -104,7 +107,6 @@ class Background{
     rect(0, 10+height/4, width, 3*height/4-10);
 
   for(int i=0;i<=40;i++){
-        seaX[i] = i*width/40; 
          seaY[i] = (int)((height/4)+(j)*sin(radians(seaX[i]))/10);
   }
  
