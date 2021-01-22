@@ -23,7 +23,7 @@ class Background{
      sunY=height/15;
      waveUp = true;
      day=true;
-     for(int i=0;i<=40;i++){
+     for(int i=0;i<=40;i++){ // Initializing waves x's coordinates array
          seaX[i] = i*width/40; 
      }
      timer = new Time();
