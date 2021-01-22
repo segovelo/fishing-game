@@ -1,5 +1,4 @@
 
-// Sebastian Vergara Student ID 16064914
 //  Press and HOLD control key to lower the fishing net
 
 
